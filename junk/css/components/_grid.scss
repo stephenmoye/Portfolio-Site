@@ -1,0 +1,39 @@
+$main-grid-color: #ececec;
+$side-grid-color: #555;
+$main-font-color: #999;
+$side-font-color: #fff;
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex-basis: 100%;
+  margin: 10px;
+  padding: 10px;
+  min-height: 300px;
+}
+
+.container {
+  display: block;
+}
+
+.main-content {
+  background: $main-grid-color;
+  color: $main-font-color;
+}
+
+.side-content {
+  background: $side-grid-color;
+  color: $side-font-color;
+  font-family: $secondary-font;
+  max-height: 250px;
+}
+
+@media screen and (min-width: 800px) {
+  .column {
+    /*flex: 1;*/
+  }
+}

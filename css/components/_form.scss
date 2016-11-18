@@ -1,0 +1,82 @@
+#contact-form {
+  height:100%;
+  margin: 50px auto;
+  background: #DDD;
+  max-width: 1000px;
+  font-family: 'Lato';
+  padding-bottom: 25px;
+}
+
+.form-container {
+  max-width: 50vw;
+  height:auto;
+  margin: 0 auto;
+  padding: 10px 0;
+    @media(max-width:760px) {
+        max-width: 100%;
+    }
+}
+
+#contact-form .form-container form input,
+#contact-form .form-container form textarea {
+    width: 100%;
+	height:30px;
+	padding:5px 10px;
+	font-size: 12px;
+	color:#999;
+	letter-spacing:1px;
+	background: #FFF;
+	border:2px solid #FFF;
+	margin-bottom: 5px;
+    font-family: 'Lato';
+  -webkit-transition:all .1s ease-in-out;
+	-moz-transition:all .1s ease-in-out;
+	-ms-transition:all .1s ease-in-out;
+	-o-transition:all .1s ease-in-out;
+	transition:all .1s ease-in-out;
+}
+
+#contact-form .form-container form input:focus,
+#contact-form .form-container form textarea:focus {
+	border:2px solid #dd4545;
+	color:#999;
+    font-family: 'Lato';
+}
+
+#contact-form .form-container form textarea {
+	height:150px;
+    font-family: 'Lato';
+}
+
+#contact-form .form-container form .required {
+	color:#b43838;}
+
+#contact-form input[type="radio"] {
+  width: 15px!important;
+  height: 15px!important;
+  color: red;
+  font: 1em 'Lato';
+  text-transform: uppercase;
+}
+
+.radio-row {
+    width: 315px;
+    margin: auto;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #555;
+    padding-bottom: 10px;
+    font: bold 1.2em 'source sans pro';
+  h4 {
+    font-size: 1.15em;
+    padding: 10px 0;
+  }
+}
+
+#or {
+text-align: center;
+font: bold 1.35em 'arial';
+text-decoration: overline underline;
+color: #fff;
+padding: 9px;
+}

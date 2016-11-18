@@ -1,0 +1,15 @@
+$primary-font:  'Oswald', sans-serif;
+$secondary-font: 'Lato';
+$primary-color: hsl(10, 63%, 62%);
+$primary-accent: hsla(10,83%,62%,1);
+
+/*Development
+*,*:before,*:after{box-shadow: 0 1px 3px 1px rgba(0,255,255,.25);}*:nth-child(even){box-shadow: 0 1px 3px 1px rgba(255,100,0,.25);}
+/**/
+
+@import 'components/font-stack';
+@import 'components/nav';
+@import 'components/grid';
+@import 'components/img-animation';
+@import 'components/form';
+@import 'components/body';
