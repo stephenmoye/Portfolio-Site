@@ -1,0 +1,242 @@
+/*-------FONT STACK------------*/
+@import 'https://fonts.googleapis.com/css?family=Work+Sans:300,400,500';
+@import 'https://fonts.googleapis.com/css?family=Space+Mono';
+h1 {
+    font-size: 6em;
+}
+
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font: 1.5em 'Work Sans', sans-serif;
+    padding: 10px;
+}
+
+/*-------NAVIGATION--------*/
+
+nav {
+    width: 100%;
+    display: block;
+}
+
+.top-nav {
+   border-bottom: 5px solid #D57700;
+}
+
+.nav-bar {
+    background: black;
+    width: 100%;
+    display: block;
+    height: 60px;
+}
+
+.top-nav ul a {
+    color: #eaeaea;
+}
+
+.top-nav ul li {
+    font-family: 'Work Sans',sans-serif;
+    font-weight: normal;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    display: inline-block;
+    float: left;
+    width: 18%;
+    padding: 20px 10px;
+    text-align: center;
+    transition: 2s ease-out;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.top-nav ul li img {
+    padding: 0px;
+}
+
+.top-nav ul li:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    transition: .5s;
+}
+
+.logo {
+    position: fixed;
+    width: 20%;
+    float: left;
+    padding: 7px 0 0 45px;
+}
+
+/*----------BANNER-----------*/
+
+.banner {
+    width: 100%;
+    height: 80vh;
+    background-image: url(../images/earth-horiz.jpg);
+    background-size: cover;
+    position: relative;
+    z-index: -5;
+}
+
+.banner h1 {
+  font: bold 6em 'Work Sans';
+  width: 60%;
+  float: left;
+  color: white;
+  padding: 30px 50px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 5;
+
+}
+
+/*********ENTER*DRAGON**********/
+
+@keyframes sweep {
+  from {
+    motion-offset: 0%;
+  }
+  to {
+    motion-offset: 100%;
+  }
+}
+
+#dragon {
+    motion-path: path('M100,525 C300,0 600,0 1600,200');
+    motion-rotation: auto;
+    animation-name: sweep;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    z-index: -1;
+}
+
+.orbit {
+    position: absolute;
+    left: 0px;
+    z-index: -2;
+}
+
+/***********EXIT*DRAGON***********/
+
+/*-------BODY CLASSES--------*/
+
+main {
+
+}
+
+article {
+
+}
+
+.content {
+    padding-bottom: 100px;
+    background: #eaeaea;    
+}
+
+.content h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#outline {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #b7b7b7;
+    color: #333;
+    font-weight: 400;
+}
+
+.pitch-row {
+    width: 965px;
+    margin: 0 auto;
+    padding: 35px 0 100px;
+}
+
+.spiel-row {
+    padding: 25px 15%;
+    width:: 950px;
+    margin: 0 auto;
+    text-align: left;
+    background: white;
+    box-shadow: 0px 5px 25px #acacac;
+}
+
+.icon {
+    height: 200px;
+    padding: 10px;
+}
+
+.pitch-row h3 {
+    font-family: 'Space Mono', sans-serif;
+    font-weight: 500;
+    border: 1px solid #005288;
+    padding: 10px 0;
+    background: #005288;
+    color: white;
+}
+
+.spiel-row p {
+    font: 300 2.05em 'Work Sans';
+    padding: 10px;
+    
+}
+
+right-col {
+    display: inline;    
+    width: 35%;
+    float: right;
+} 
+
+left-col {
+    display: block;    
+    width: 35%;
+    float: left;
+}
+
+.gallery {
+    background: #eaeaea;
+    width: 45%;
+    padding: 2.25%;
+}
+
+.plus,.equals {
+    font: bold 7em 'Work Sans';
+    color: #777;
+    position: relative;
+    bottom: 55px;
+    padding: 10px;
+    text-shadow: 1px 2px #252525;
+}
+
+.first-cell,.second-cell,.third-cell {
+    display: inline-block;
+    background: white;
+    text-align: center;
+    width: 255px;
+    height: 350px;
+    border: 1px solid #acacac;
+    border-radius: 5px;
+    margin: 0 auto;
+
+}
+
+.first-cell {
+
+}
+
+.second-cell {
+
+}
+
+.third-cell {
+
+}

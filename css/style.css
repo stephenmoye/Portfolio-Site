@@ -67,7 +67,7 @@ nav {
         border-radius: 5px;
         padding: 8px;
         text-transform: uppercase;
-        color: #ececec;
+        color: #fff;
         transition: .39s ease-in-out;
         transition: .5s all;
         -moz-transition: .5s all;
@@ -80,12 +80,6 @@ nav {
           -webkit-transition: .5s all;
           -o-transition: .5s all; }
 
-/*.nav-logo {
-    width: 50px;
-    height: 50px;
-    float: left;
-    margin: 20px;
-}*/
 .nav-box {
   width: 100%;
   min-width: 740px;
@@ -140,6 +134,7 @@ header.large nav name {
   text-shadow: 2px 0px #b7b7b7; }
   .name h2 {
     font-size: 3em;
+    color: #fff;
     padding: 0px;
     margin: 0px;
     transition: .5s all;
@@ -178,7 +173,8 @@ header.small {
   height: 50px; }
 
 header.small img {
-  height: 50px; }
+  height: 50px;
+  padding-left: 10px; }
 
 header.small nav name {
   font-size: 1.5em;
@@ -286,23 +282,21 @@ header.small li a {
   display: inline-block;
   text-decoration: none;
   padding: 2px 8px;
-  background: #c25842;
-  color: #fff;
+  color: #999;
+  background: #ececec;
   font: normal 1.4em 'Lato';
   text-transform: uppercase;
   position: absolute;
-  bottom: 15px;
-  left: 135px;
+  bottom: 0px;
+  left: 0px;
   box-shadow: 2px 2px 0px #999;
-  transition: .2s; }
-
-.mywork a.info:hover {
-  background: #ce705c;
-  color: #eee;
-  transition: .25s;
-  bottom: 17px;
-  left: 132px;
-  box-shadow: 5px 5px 5px #999; }
+  transition: .2s;
+  width: 100%; }
+  .mywork a.info:hover {
+    background: #ce705c;
+    color: #eee;
+    transition: .25s;
+    box-shadow: 5px 5px 5px #999; }
 
 .work-photo img {
   -webkit-transition: all 0.5s ease-in-out;
@@ -327,12 +321,9 @@ header.small li a {
   transition: all 0.5s ease-in-out; }
 
 .work-photo h2 {
-  background: #db7560;
+  background: #df8e73;
   color: #fff;
   text-shadow: 2px 1px 1px #999;
-  -webkit-box-shadow: 0px 4px 0px #e79f91;
-  -moz-box-shadow: 0px 4px 0px #e79f91;
-  box-shadow: 0px 4px 0px #e79f91;
   font: normal 2.1em 'Oswald'; }
 
 .work-photo p {
@@ -409,14 +400,14 @@ header.small li a {
 /*YYYYYYYYYYYYYYYYYYYY CIRCLE IMAGE BACK SIDE MUH FACE YYYYYYYYYYYYYYYYYY*/
 #contact-form {
   height: 100%;
-  margin: 50px auto;
+  margin: 75px auto;
   background: #DDD;
-  max-width: 1000px;
+  max-width: 800px;
   font-family: 'Lato';
-  padding-bottom: 25px; }
+  padding-bottom: 45px; }
 
 .form-container {
-  max-width: 50vw;
+  max-width: 35vw;
   height: auto;
   margin: 0 auto;
   padding: 10px 0; }
@@ -532,13 +523,13 @@ h4 {
   background: #db7560;
   color: #fff;
   font: bold 1.65em 'Source Sans Pro';
-  box-shadow: 2px 2px 0px #999;
+  box-shadow: 2px 2px 1px #999;
   transition: .2s;
   cursor: pointer;
   border: none; }
   .btn:hover {
     transform: scale(0.98);
-    box-shadow: 1px 1px 1px #999;
+    box-shadow: 0px 0px;
     transition: .5s; }
 
 #contact h1, #work h1 {
